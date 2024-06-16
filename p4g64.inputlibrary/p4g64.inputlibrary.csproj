@@ -47,6 +47,9 @@
     <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.4.0" ExcludeAssets="runtime" />
     <PackageReference Include="Reloaded.SharedLib.Hooks" Version="1.9.0" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\p4g64.inputlibrary.interfaces\p4g64.inputlibrary.interfaces.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
